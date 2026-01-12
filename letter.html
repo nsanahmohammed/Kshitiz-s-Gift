@@ -532,9 +532,11 @@
                 showCursor: true,
                 cursorChar: '|',
                 onComplete: function() {
+                    /*
                     setTimeout(() => {
                         document.querySelector('.surprise-button').classList.add('animate__animated', 'animate__pulse', 'animate__infinite');
                     }, 1000);
+                    */
                 }
             });
 
@@ -559,7 +561,7 @@
             // Cursor effect
             document.addEventListener('mousemove', createCursorEffect);
 
-            // Surprise button functionality
+            /*// Surprise button functionality
             const surpriseButton = document.getElementById('surprise-button');
             const modalOverlay = document.getElementById('modal-overlay');
             const modalClose = document.getElementById('modal-close');
@@ -578,7 +580,7 @@
             modalClose.addEventListener('click', function() {
                 modalOverlay.classList.remove('active');
             });
-
+*/
             // Music controls
             const musicToggle = document.getElementById('music-toggle');
             const musicIcon = document.getElementById('music-icon');
